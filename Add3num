@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Add3num {
+public static void main (String [] args) {
+Scanner sc=new Scanner (System.in);
+System.out.println("Enter the first num:");
+int a=sc.nextInt();
+System.out.println("Enter the second num:");
+int b=sc.nextInt();
+System.out.println("Enter the third num:");
+int c=sc.nextInt();
+int d=a+b+c;
+System.out.println("a+b+c="+d);
+}
+}
